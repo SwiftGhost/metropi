@@ -17,7 +17,7 @@
   "alerts": {
     "enabled": true,
     "alert_threshold_minutes": 5,
-    "alert_color": "#FFD700" // Highlight color for imminent buses
+    "alert_color": "#FFD700"
   },
   "group_stop_ids": {
     "Home": ["0847", "3572"],
