@@ -1,0 +1,30 @@
+{
+  "api_key": "YOUR_API_KEY",
+  "stop_ids": ["0847","3572","8866"],
+  "timeframe_minutes": 45,
+  "preferred_routes": [],
+  "refresh_interval_seconds": 10,
+  "font_sizes": {
+    "route": 36,
+    "destination": 32,
+    "time": 48,
+    "current_time": 24
+  },
+  "theme": {
+    "background_color": "#FFFFFF",
+    "text_color": "#000000"
+  },
+  "alerts": {
+    "enabled": true,
+    "alert_threshold_minutes": 5
+  },
+  "group_stop_ids": {
+    "Home": ["0847", "3572"],
+    "Work": ["8866"]
+  },
+  "export_data": {
+    "enabled": false,
+    "file_path": "bus_schedule.csv"
+  },
+  "language": "en"
+}
